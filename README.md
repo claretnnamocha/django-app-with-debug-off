@@ -15,11 +15,13 @@ if not settings.DEBUG:
 ```python
 if DEBUG:    
     STATICFILES_DIRS = [
-        os.path.join(BASE_DIR, "main", "assets")
+        os.path.join(BASE_DIR, "main", "assets")  # here main is your default folder
     ]
 else:
-    STATIC_ROOT = os.path.join(BASE_DIR, 'main', 'assets')
+    STATIC_ROOT = os.path.join(BASE_DIR, 'main', 'assets')  # here main is your default folder
 ```
 #### And That\'s it You\'re  done!
+
+***NB: `main` is the name of the default folder, feel free to change it to fit your use case***
 
 ##### Design by **[BlackrockDigital](https://github.com/BlackrockDigital/startbootstrap-creative "BlackrockDigital")**  
