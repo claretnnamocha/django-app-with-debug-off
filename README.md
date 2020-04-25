@@ -22,6 +22,6 @@ else:
 ```
 #### And That\'s it You\'re  done!
 
-***NB: `main` is the name of the default folder, feel free to change it to fit your use case***
+***NB: `main` is the name of the default folder and `assets` is the name of the static directory, remember to change it to fit your use case***
 
 ##### Design by **[BlackrockDigital](https://github.com/BlackrockDigital/startbootstrap-creative "BlackrockDigital")**  
